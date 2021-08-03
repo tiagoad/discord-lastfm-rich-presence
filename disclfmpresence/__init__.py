@@ -98,7 +98,6 @@ def loop(cfg: config.Config):
                 )
 
             presence['large_image'] = 'logo'
-            presence['small_image'] = 'logo'
 
             _update_presence(discord, **presence)
 
