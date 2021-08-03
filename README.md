@@ -3,6 +3,8 @@
 This is a python script to set your Discord rich presence as your currently playing
 last.fm track.
 
+![](./img/sample.png)
+
 ## Config
 
 Check the `Config` class in [presence.py](./disclfmpresence/__init__.py) for all supported
@@ -16,4 +18,4 @@ config keys.
    (check the `Config` class in [presence.py](./presence.py) for all supported
    config keys);
 4. Run `poetry run dlfm`. 
-   The script should connect to your running Discord instance and display your playing tracks.
+   The script should connect to yo:wur running Discord instance and display your playing tracks.
